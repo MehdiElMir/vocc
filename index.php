@@ -12,7 +12,7 @@
     <h1>hello</h1>
 
     <script src="lib/jquery.min.js"></script>
-    <script src="lib/js/bootstrap.js"></script>
+    <script src="lib/bootstrap5/js/bootstrap.js"></script>
     <script src="js/index.js"></script>
 </body>
 
