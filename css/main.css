@@ -61,7 +61,7 @@
     margin-left: 100px;
   }
   
-  
+  /* ---------------Header and footer css  */
   
   nav{
     height: 100px;
@@ -85,6 +85,14 @@
     width: 150px;
     float: left;
   }
+
+  #copyright{
+    font-size: 15px;
+    font-family: OpenSans;
+    color: #787878;
+  }
+
+  /* --------------------main content  */
    
   .banner{
     background-color: #bb083c;

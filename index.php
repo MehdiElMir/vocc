@@ -12,7 +12,7 @@
     <div class="main-content">
         <div class="banner">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-end">
                     <div class="col-6">
                         <img src="img/banner_img.png" alt="banner_image" >
                     </div>

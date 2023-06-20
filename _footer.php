@@ -1,10 +1,5 @@
 <footer>
 <div class="container">
-    <!-- <div class="row">
-        <img id="footer_logo" src="img/vocc_footer.png" alt="footer_logo">
-        <p></p>
-    </div> -->
-
     <div class="row align-items-center">
         <div class="col-6">
             <div class="row align-items-center justify-content-start">

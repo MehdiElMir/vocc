@@ -62,7 +62,7 @@ h1{
 }
 
 
-/* ---------------Header and footer css  */
+
 nav{
   height: 100px;
 }
@@ -86,13 +86,7 @@ li > a{
   float: left;
 }
 
-footer > p{
-  font-size: 15px;
-  font-family: OpenSans;
-  color: #787878;
-}
 
-/* --------------------banner content  */
 .banner{
   background-color: #bb083c;
   width: 100%;
