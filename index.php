@@ -8,11 +8,16 @@
     <title>index</title>
 </head>
 <body>
-    
-    <h1>hello</h1>
+    <?php include('_header.php'); ?>    
+
+   
+
+    <footer>
+        <?php include('_footer.php');?>
+    </footer>
 
     <script src="lib/jquery.min.js"></script>
-    <script src="lib/bootstrap5/js/bootstrap.js"></script>
+    <script src="lib/bootstrap5/js/bootstrap.bundle.js"></script>
     <script src="js/index.js"></script>
 </body>
 
