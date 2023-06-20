@@ -18,7 +18,7 @@
         </div>
         <div class="col-6">
             <div class="row justify-content-end">
-                <div class="col-6">
+                <div cla ss="col-6">
                     
                 </div>
                 <div class="col-auto">

@@ -15,7 +15,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">A PROPOS</a>
+            <a class="nav-link active" href="apropos.php">A PROPOS</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">METHODE</a>
