@@ -12,7 +12,7 @@
                     <img id="footer_logo" src="img/vocc_footer.png" alt="footer_logo">
                 </div>
                 <div class="col-auto">
-                    <p>@ VOCC 2013 - TOUS DROITS RESERVES</p>
+                    <p id="copyright">@ VOCC 2013 - TOUS DROITS RESERVES</p>
                 </div>
             </div>
         </div>
