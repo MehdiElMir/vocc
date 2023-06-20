@@ -8,10 +8,11 @@
     <title>index</title>
 </head>
 <body>
-    <?php include('_header.php'); ?>    
+    <?php include('_header.php'); ?>  
+      
     <div class= "container">
-        <div class= "row align-items-center justify-content-start">
-            <div class= " namezone">
+        <div class= " col-1 namezone">
+            <div class= " row align-items-center justify-content-start">
                 <p> A PROPOS</p>
             </div>
         </div>
