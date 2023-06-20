@@ -9,12 +9,11 @@
 </head>
 <body>
     <?php include('_header.php'); ?>    
+    <div class="main-content">
 
+    </div>
    
-
-    <footer>
-        <?php include('_footer.php');?>
-    </footer>
+    <?php include('_footer.php');?>
 
     <script src="lib/jquery.min.js"></script>
     <script src="lib/bootstrap5/js/bootstrap.bundle.js"></script>
