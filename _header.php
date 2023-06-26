@@ -1,37 +1,42 @@
 <header>
-  <nav class="navbar justify-content-center navbar-expand-lg bg-body-tertiary co">
-    <div class="container-fluid">
-
-      <img class="anvbar-brand navlogo" src="img/logo.png" alt="logo">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse nav_items" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
-              <img src="img/home_logo.png" alt="home_logo" srcset="">
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="apropos.php">A PROPOS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">METHODE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">PRESTATIONS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">FORMATIONS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT</a>
-          </li>
+    <div class="custom-navbar">
+        <div class="logo">
+            <img src="img/vocc_logo.png" alt="vocc_logo">
+        </div>
+        <ul class="links">
+            <li><a href="index.php"><img src="img/home_logo.png" alt="home_logo"></a></li>
+            <li><a href="apropos.php">à propos</a></li>
+            <li><a href="methode.php">méthode</a></li>
+            <li><a href="prestations.php">préstations</a></li>
+            <li><a href="formations.php">formations</a></li>
+            <li><a href="contact.php">contact</a></li>
         </ul>
-        
-      </div>
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </div>
-  </nav>
+    <div class="dropdown_menu">
+        <ul>
+            <li><a href="index.php">home</a></li>
+            <li><a href="apropos.php">à propos</a></li>
+            <li><a href="methode.php">méthode</a></li>
+            <li><a href="prestations.php">préstations</a></li>
+            <li><a href="formations.php">formations</a></li>
+            <li><a href="contact.php">contact</a></li>
+        </ul>
+    </div>
 </header>
+<script>
+    const toggleBtn = document.querySelector('.toggle_btn')
+    const toggleBtnIcon = document.querySelector('.toggle_btn i')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+
+    toggleBtn.onclick = function (){
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropDownMenu.classList.contains('open')
+
+        toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+    }
+</script>
